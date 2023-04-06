@@ -1,2 +1,2 @@
-github "Alamofire/Alamofire" "4.9.1"
-github "antitypical/Result" "4.1.0"
+github "salido/Alamofire" "4.9.2"
+github "salido/Result" "5.0.1"
