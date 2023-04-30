@@ -3,20 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0DA77DF1329D3EFD3BD295CE /* Moya.h in Headers */ = {isa = PBXBuildFile; fileRef = D38525FE207BE148B17084F3 /* Moya.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1446FBB31F214C5200C1EFF2 /* URL+Moya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1446FBB21F214C5200C1EFF2 /* URL+Moya.swift */; };
-		1463B87B1F8A8A79002D9C4F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1463B8731F8A8A5B002D9C4F /* Alamofire.framework */; };
-		1463B87C1F8A8A79002D9C4F /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1463B8731F8A8A5B002D9C4F /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1463B87D1F8A8A79002D9C4F /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1463B8721F8A8A5A002D9C4F /* Result.framework */; };
-		1463B87E1F8A8A79002D9C4F /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1463B8721F8A8A5A002D9C4F /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1463B8801F8A8A7F002D9C4F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1463B8731F8A8A5B002D9C4F /* Alamofire.framework */; };
-		1463B8811F8A8A7F002D9C4F /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1463B8731F8A8A5B002D9C4F /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1463B8821F8A8A7F002D9C4F /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1463B8721F8A8A5A002D9C4F /* Result.framework */; };
-		1463B8831F8A8A7F002D9C4F /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1463B8721F8A8A5A002D9C4F /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1463B87B1F8A8A79002D9C4F /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1463B8731F8A8A5B002D9C4F /* Alamofire.xcframework */; };
+		1463B87C1F8A8A79002D9C4F /* Alamofire.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1463B8731F8A8A5B002D9C4F /* Alamofire.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1463B87D1F8A8A79002D9C4F /* Result.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1463B8721F8A8A5A002D9C4F /* Result.xcframework */; };
+		1463B87E1F8A8A79002D9C4F /* Result.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1463B8721F8A8A5A002D9C4F /* Result.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1463B8801F8A8A7F002D9C4F /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1463B8731F8A8A5B002D9C4F /* Alamofire.xcframework */; };
+		1463B8811F8A8A7F002D9C4F /* Alamofire.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1463B8731F8A8A5B002D9C4F /* Alamofire.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1463B8821F8A8A7F002D9C4F /* Result.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1463B8721F8A8A5A002D9C4F /* Result.xcframework */; };
+		1463B8831F8A8A7F002D9C4F /* Result.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1463B8721F8A8A5A002D9C4F /* Result.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		147E26EC1F5B14B300C1F513 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147E26EB1F5B14B300C1F513 /* Task.swift */; };
 		149675EB1F8133B00085EDEE /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559D567FD0DA37D6CC98FF92 /* Moya.framework */; };
 		149675EC1F81340B0085EDEE /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469A06B01F705DDE001153A0 /* GitHubAPI.swift */; };
@@ -30,6 +30,8 @@
 		1FD44D9E21CEA6B6221807EF /* NetworkLoggerPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4553E5591EE96535C5310C02 /* NetworkLoggerPlugin.swift */; };
 		2C7132B56A7B129E12BAACAC /* EndpointSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E825A32256FC030B8BA2684D /* EndpointSpec.swift */; };
 		312750ECEEBC68A508BFD681 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559D567FD0DA37D6CC98FF92 /* Moya.framework */; };
+		35BF8B1B29FEC1FF000244B4 /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1463B8731F8A8A5B002D9C4F /* Alamofire.xcframework */; };
+		35BF8B1C29FEC37C000244B4 /* Result.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1463B8721F8A8A5A002D9C4F /* Result.xcframework */; };
 		3AF7063CBE1F9626FB32D933 /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2B20158E599EDBE51D7AB2 /* Cancellable.swift */; };
 		4033070748A57EB4A0040DB1 /* NetworkLoggerPluginSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832781077A551E1F86E5F2D4 /* NetworkLoggerPluginSpec.swift */; };
 		469A06761F705C3E001153A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469A06751F705C3E001153A0 /* AppDelegate.swift */; };
@@ -96,8 +98,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1463B87C1F8A8A79002D9C4F /* Alamofire.framework in Embed Frameworks */,
-				1463B87E1F8A8A79002D9C4F /* Result.framework in Embed Frameworks */,
+				1463B87C1F8A8A79002D9C4F /* Alamofire.xcframework in Embed Frameworks */,
+				1463B87E1F8A8A79002D9C4F /* Result.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,8 +110,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1463B8811F8A8A7F002D9C4F /* Alamofire.framework in Embed Frameworks */,
-				1463B8831F8A8A7F002D9C4F /* Result.framework in Embed Frameworks */,
+				1463B8811F8A8A7F002D9C4F /* Alamofire.xcframework in Embed Frameworks */,
+				1463B8831F8A8A7F002D9C4F /* Result.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,8 +121,8 @@
 /* Begin PBXFileReference section */
 		019BF5A88BB928EBDFD944FE /* ReactiveMoya.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ReactiveMoya.h; sourceTree = "<group>"; };
 		1446FBB21F214C5200C1EFF2 /* URL+Moya.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Moya.swift"; sourceTree = "<group>"; };
-		1463B8721F8A8A5A002D9C4F /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
-		1463B8731F8A8A5B002D9C4F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		1463B8721F8A8A5A002D9C4F /* Result.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Result.xcframework; path = Carthage/Build/Result.xcframework; sourceTree = "<group>"; };
+		1463B8731F8A8A5B002D9C4F /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = Carthage/Build/Alamofire.xcframework; sourceTree = "<group>"; };
 		147E26EB1F5B14B300C1F513 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		149749421F8923EC00FA4900 /* AnyEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyEncodable.swift; sourceTree = "<group>"; };
 		149749441F892E2F00FA4900 /* URLRequest+Encoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Encoding.swift"; sourceTree = "<group>"; };
@@ -193,9 +195,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1463B8821F8A8A7F002D9C4F /* Result.framework in Frameworks */,
+				1463B8821F8A8A7F002D9C4F /* Result.xcframework in Frameworks */,
 				149675EB1F8133B00085EDEE /* Moya.framework in Frameworks */,
-				1463B8801F8A8A7F002D9C4F /* Alamofire.framework in Frameworks */,
+				1463B8801F8A8A7F002D9C4F /* Alamofire.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,9 +205,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1463B87D1F8A8A79002D9C4F /* Result.framework in Frameworks */,
+				1463B87D1F8A8A79002D9C4F /* Result.xcframework in Frameworks */,
 				469A06B21F705ECF001153A0 /* Moya.framework in Frameworks */,
-				1463B87B1F8A8A79002D9C4F /* Alamofire.framework in Frameworks */,
+				1463B87B1F8A8A79002D9C4F /* Alamofire.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +223,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35BF8B1C29FEC37C000244B4 /* Result.xcframework in Frameworks */,
+				35BF8B1B29FEC1FF000244B4 /* Alamofire.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,8 +234,8 @@
 		0E7C5E12BDDF8CD3A778D84C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1463B8731F8A8A5B002D9C4F /* Alamofire.framework */,
-				1463B8721F8A8A5A002D9C4F /* Result.framework */,
+				1463B8731F8A8A5B002D9C4F /* Alamofire.xcframework */,
+				1463B8721F8A8A5A002D9C4F /* Result.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -774,7 +778,7 @@
 					"$(inherited)",
 				);
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphone*]" = (
-					"$(SRCROOT)/Carthage/Build/iOS/",
+					"$(SRCROOT)/Carthage/Build/",
 					"$(inherited)",
 				);
 				"FRAMEWORK_SEARCH_PATHS[sdk=macosx*]" = (
@@ -790,7 +794,11 @@
 				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cocoapods.Moya;
@@ -798,7 +806,8 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TVOS_DEPLOYMENT_TARGET = 13.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -819,7 +828,7 @@
 					"$(inherited)",
 				);
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphone*]" = (
-					"$(SRCROOT)/Carthage/Build/iOS/",
+					"$(SRCROOT)/Carthage/Build/",
 					"$(inherited)",
 				);
 				"FRAMEWORK_SEARCH_PATHS[sdk=macosx*]" = (
@@ -833,8 +842,16 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cocoapods.MoyaTests;
@@ -893,7 +910,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,3,4";
 				VALIDATE_PRODUCT = YES;
@@ -921,14 +939,17 @@
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = Examples/Basic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = Moya.Basic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -962,14 +983,17 @@
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = Examples/Basic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = Moya.Basic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1000,14 +1024,17 @@
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "Examples/Multi-Target/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "Moya.Multi-Target";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1041,14 +1068,17 @@
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "Examples/Multi-Target/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "Moya.Multi-Target";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1111,7 +1141,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,3,4";
 			};
@@ -1134,7 +1165,7 @@
 					"$(inherited)",
 				);
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphone*]" = (
-					"$(SRCROOT)/Carthage/Build/iOS/",
+					"$(SRCROOT)/Carthage/Build/",
 					"$(inherited)",
 				);
 				"FRAMEWORK_SEARCH_PATHS[sdk=macosx*]" = (
@@ -1150,7 +1181,11 @@
 				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cocoapods.Moya;
@@ -1178,7 +1213,7 @@
 					"$(inherited)",
 				);
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphone*]" = (
-					"$(SRCROOT)/Carthage/Build/iOS/",
+					"$(SRCROOT)/Carthage/Build/",
 					"$(inherited)",
 				);
 				"FRAMEWORK_SEARCH_PATHS[sdk=macosx*]" = (
@@ -1192,15 +1227,24 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cocoapods.MoyaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TVOS_DEPLOYMENT_TARGET = 13.0;
 				WATCHOS_DEPLOYMENT_TARGET = 9.1;
 			};
